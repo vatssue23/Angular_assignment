@@ -1,0 +1,18 @@
+<div *ngFor='let b of blog'>
+  <form #form="ngForm" (ngSubmit)='EditBlog(form)' ngNativeValidate>
+    <div class="form-group m-4">
+
+      <label for="title">Title</label>
+      <input required id="title" name="title" type="text" class='my-1 form-control' [(ngModel)] = 'b.title'>
+
+      <label for="categories">Categories</label>
+      <input require [(ngModel)] = 'b.categories' type="text" class='my-1 form-control' name='categories' id="categories">
+
+      <label for="content">Content</label>
+      <textarea required [(ngModel)] = 'b.content' type="text" class='my-1 form-control' name='content' id="content"></textarea>
+
+      <a routerLink='/showblog/{{b._id}}' class="btn btn-danger">Cancel</a>
+      <button class="btn btn-primary m-2">Save</button>
+    </div>
+  </form>
+</div>

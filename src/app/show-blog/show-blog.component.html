@@ -1,0 +1,20 @@
+<div class="container">
+  <div *ngFor='let b of blog'>
+    <div class="m-4">
+      <h1 class="breaking">{{ b.title }}</h1>
+      <small class="text-muted">{{ b.createdAt | date:'mediumDate' }}</small><br>
+      <p class="breaking font-italic text-muted">{{ b.categories }}</p>
+      <div>
+        <span>
+          <a routerLink="/editblog/{{b._id}}" class="btn btn-primary">Edit</a>
+          <a (click)='onDelete()' class="m-2 btn btn-danger">Delete</a>
+        </span>
+        <span style="float: right;">
+          <a (click)='onUpVote()' class="btn btn-success">Upvote &#8679; {{ b.upVotes }}</a>
+          <a (click)='onDownVote()' class="m-2 btn btn-info">Downvote &#8681; {{ b.downVotes }}</a>
+        </span>
+      </div>
+      <div class="breaking my-3">{{ b.content }}</div>
+    </div>
+  </div>
+</div>

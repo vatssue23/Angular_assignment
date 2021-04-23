@@ -1,0 +1,26 @@
+<h1 class="display-1 m-4"> BLOGS </h1>
+<a routerLink="/addblog" class="text-decoration-none">
+  <h5 class="display-6 ml-4">+ Add New Blog</h5>
+</a>
+<div *ngFor='let b of blog'>
+  <div class="card m-4">
+    <div class="card-body">
+      <h4 class="card-title">
+        <a routerLink='/showblog/{{b._id}}' class="display-6 text-decoration-none">
+          {{ b.title }}
+        </a>
+      </h4>
+      <p class="card-subtitle text-muted m-2">
+          {{ b.createdAt | date:'mediumDate' }}
+      </p>
+      <h5 class="card-text font-italic m-2">
+        {{ b.categories }}
+      </h5>
+      <hr>
+      <div class="">
+        <span class="mx-2" style='font-size:15px;'>&#8679; {{ b.upVotes }}</span>
+        <span class="mx-2" style='font-size:15px;'>&#8681; {{ b.downVotes }}</span>
+      </div>
+    </div>
+  </div>
+</div>
