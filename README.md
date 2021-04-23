@@ -7,7 +7,7 @@ Created 'Blog Post App' using MEAN stack MongoDB, Express, Angular and NodeJS<br
 4- To view any of the already posted blog click on the title with other details like Date and Description,<br>
 5- On clicking the blog title we can see the details of the blog along with option to "edit" and "delete" that blog,<br>
 6- On clicking the "edit" option we can see the options to edit the blog and on clicking "delete" we will land on home page with the specific blog deleted,<br>
-7- Upvote and Downvote for a particular blog is available whose information or total count is displayed on the home screen.
+7- Upvote and Downvote for a particular blog is available whose information or total count is displayed on the home screen and can Upvote or Downvote while reading the blog.<br>
 
 <b>Functional Objectives</b><br>
 -All the functional objectives mentioned in the assignent are achieved.<br>
