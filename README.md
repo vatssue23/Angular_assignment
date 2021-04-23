@@ -1,7 +1,7 @@
 Created 'Blog Post App' using MEAN stack MongoDB, Express, Angular and NodeJS<br> Note - Install dependecies before running the app<br>
 
 <b>App workflow</b><br>
-1- App can be runned using command 'npm start',<br>
+1- App can be runned using command 'npm start' for frontend server, and 'node server.js' command for backend server( Can be done using two terminals....),<br>
 2- Homepage of our app can be accessed using url "localhost:4200",<br>
 3- On our homepage we can see all the blog posts along with option to add a "New Blog", on clicking '+ Add new Blog' we will land on page with form to create a new blog,<br>
 4- To view any of the already posted blog click on the title with other details like Date and Description,<br>
