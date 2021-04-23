@@ -1,27 +1,19 @@
-# AngularApp
+Created 'Blog Post App' using MEAN stack MongoDB, Express, Angular and NodeJS<br> Note - Install dependecies before running the app<br>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+<b>App workflow</b><br>
+1- App can be runned using command 'npm start',<br>
+2- Homepage of our app can be accessed using url "localhost:4200",<br>
+3- On our homepage we can see all the blog posts along with option to add a "New Blog", on clicking '+ Add new Blog' we will land on page with form to create a new blog,<br>
+4- To view any of the already posted blog click on the title with other details like Date and Description,<br>
+5- On clicking the blog title we can see the details of the blog along with option to "edit" and "delete" that blog,<br>
+6- On clicking the "edit" option we can see the options to edit the blog and on clicking "delete" we will land on home page with the specific blog deleted,<br>
+7- Upvote and Downvote for a particular blog is available whose information or total count is displayed on the home screen.
 
-## Development server
+<b>Functional Objectives</b><br>
+-All the functional objectives mentioned in the assignent are achieved.<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<b>Future Scope</b><br>
+1- Login/Logout feature can be added,<br>
+2- User can be added using the Login/logout features,<br>
+3- Search feature based on Title or Categories can be added,<br>
+4- While posting the Blog other types of files such as Image, Videos, links can be accepted as well.<br>
